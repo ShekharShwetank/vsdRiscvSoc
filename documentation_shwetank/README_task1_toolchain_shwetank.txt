@@ -24,7 +24,7 @@ Toolchain Installation Journey & Learnings:
    - Conclusion: Deemed unsuitable for C development tasks requiring standard libraries. The directory was renamed to `riscv_nightly_problematic_20250530`.
 
 2. Successful Installation: xPack GNU RISC-V Embedded GCC (v14.2.0-3)
-   - Rationale: Following mentor's advice to "figure it out," xPack was chosen as a well-maintained alternative.
+   - Rationale: Following mentor's advice, xPack was chosen as a well-maintained alternative.
    - Tool Downloaded: `xpack-riscv-none-elf-gcc-14.2.0-3-linux-x64.tar.gz` from [https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/tag/v14.2.0-3](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack/releases/tag/v14.2.0-3).
    - Installation Path: Extracted to `~/riscv_tapeout_shwetank_workspace/toolchain_riscv_shwetank/xpack-riscv-none-elf-gcc-14.2.0-3/`.
    - PATH Configuration: Updated `~/.bashrc` to include:
